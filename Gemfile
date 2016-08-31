@@ -32,6 +32,7 @@ end
 
 
 group :test do
+  gem 'rails-controller-testing', '0.1.1'
   gem 'database_cleaner',         '~> 1.5'
 end
 
