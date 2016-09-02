@@ -1,7 +1,25 @@
-<% provide(:title, "Home") %>
-<h1>Sample App</h1>
-<p>
-  This is the home page for the
-  <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-  sample application.
-</p>
+<div class="center jumbotron">
+  <h1>Welcome to the Sample App</h1>
+
+  <h2>
+    This is the home page for the
+    <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    sample application.
+  </h2>
+
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+
+
+
+<div class="row">
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <%= link_to image_tag("photo30.jpg", alt: "Rails logo", class: "pull-left img-rounded"), 'http://rubyonrails.org/' %>
+      <p>Pulpit Rock: A famous tourist attraction in Forsand, Ryfylke, Norway.</p>
+    </div>
+  </div>
+  <div class="col-md-8">
+    
+  </div>
+</div>
